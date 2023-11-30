@@ -1,12 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <title>Resume Analyzer</title>
 </head>
+
 <body>
-    <h1 class="bg-indigo-400">Helloğ it's meğğ</h1>
+    <!-- Navbar -->
+    <div class="navbar   bg-slate-900 text-white">
+        <div class="flex-1">
+            <a class="btn btn-ghost text-xl">Resumee</a>
+        </div>
+        <div class="flex-none">
+            <ul class="menu menu-horizontal px-1">
+                <li><a href="#">Home</a></li>
+                <li>
+                    <details>
+                        <summary>
+                            More
+                        </summary>
+                        <ul class="p-2 bg-base-100 rounded-t-none">
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">SignUp</a></li>
+                            <li><a href="#">About</a></li>
+                        </ul>
+                    </details>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Banner -->
+    <div class="hero min-h-screen contrast-125" style="background-image: url(./images/sandro-katalina-k1bO_VTiZSs-unsplash.jpg);">
+        <div class="hero-overlay bg-opacity-40"></div>
+        <div class="hero-content text-center text-white">
+            <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold">Welcome</h1>
+                <p class="mb-5 ">Transforming Your CV Data into Stunning
+                    Visual Narratives to Showcase Your Journey and Skills</p>
+                <button class="btn bg-white text-slate-950">Get Started</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features -->
+    <div class=" h-full bg-gradient-to-tl from-[#302b63] to-[#000428]">
+
+
+        <h2 class="h-32 text-white font-semibold text-2xl  flex justify-center items-center">FEATURES</h2>
+
+        <div class="flex lg:px-16 sm:flex-row flex-col my-20 mx-4">
+            <div
+                class="grid bg-transparent border sm:mr-4 text-white mb-5 h-full flex-grow card  rounded-box place-items-center">
+                <figure class="my-5">
+                    <img class="h-20" src="./images/person.png" alt="personEmoji">
+                </figure>
+                <h5 class="mt-3">Profile</h5>
+                <p class="p-5 text-center">Users sign up for the project, add their personal information and
+                    preferences.</p>
+            </div>
+            <div class="grid sm:mr-4 text-white mb-5 h-full flex-grow card bg-transparent border rounded-box place-items-center">
+                <figure class="my-5">
+                    <img class="h-20" src="./images/analyze.png" alt="AnalyzeEmoji">
+                </figure>
+                <h5 class="mt-3">Analyze</h5>
+                <p class="p-5 text-center">Allows users to analyze resumes they upload and view the results.</p>
+            </div>
+
+            <div class="grid h-full text-white flex-grow card bg-transparent border rounded-box place-items-center">
+                <figure class="my-5">
+                    <img class="h-20" src="./images/admin.png" alt="adminEmoji">
+                </figure>
+                <h5 class="mt-3">Admin Panel</h5>
+                <p class="p-5 text-center">Users sign up for the project, add their personal information and
+                    preferences.</p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <hr>
+        <footer class="footer footer-center p-10  text-white">
+            <aside>
+                <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                    clip-rule="evenodd" class="inline-block fill-current">
+                    <path
+                        d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z">
+                    </path>
+                </svg>
+                <p class="font-bold">
+                    Kubra Arig <br />Resume Analyzer
+                </p>
+                <p>2023 - My final year's first project</p>
+            </aside>
+            <nav>
+                <div class="grid grid-flow-col gap-4">
+
+
+                    <a href="https://twitter.com/arigkubra">
+                        <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24"
+                            height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M 2.8671875 3 L 9.7363281 12.818359 L 2.734375 21 L 5.3808594 21 L 10.919922 14.509766 L 15.460938 21 L 21.371094 21 L 14.173828 10.697266 L 20.744141 3 L 18.138672 3 L 12.996094 9.0097656 L 8.7988281 3 L 2.8671875 3 z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kubra-arig-5795801b8/">
+                        <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24"
+                            height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M19,3H5C3.895,3,3,3.895,3,5v14c0,1.105,0.895,2,2,2h14c1.105,0,2-0.895,2-2V5C21,3.895,20.105,3,19,3z M9,17H6.477v-7H9 V17z M7.694,8.717c-0.771,0-1.286-0.514-1.286-1.2s0.514-1.2,1.371-1.2c0.771,0,1.286,0.514,1.286,1.2S8.551,8.717,7.694,8.717z M18,17h-2.442v-3.826c0-1.058-0.651-1.302-0.895-1.302s-1.058,0.163-1.058,1.302c0,0.163,0,3.826,0,3.826h-2.523v-7h2.523v0.977 C13.93,10.407,14.581,10,15.802,10C17.023,10,18,10.977,18,13.174V17z">
+                            </path>
+                        </svg>
+                    </a>
+
+                    <a href="https://github.com/arigkubra">
+                        <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24"
+                            height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M 12 2 C 6.476563 2 2 6.476563 2 12 C 2 17.523438 6.476563 22 12 22 C 17.523438 22 22 17.523438 22 12 C 22 6.476563 17.523438 2 12 2 Z M 12 4 C 16.410156 4 20 7.589844 20 12 C 20 12.46875 19.953125 12.929688 19.875 13.375 C 19.628906 13.320313 19.265625 13.253906 18.84375 13.25 C 18.53125 13.246094 18.140625 13.296875 17.8125 13.34375 C 17.925781 12.996094 18 12.613281 18 12.21875 C 18 11.257813 17.53125 10.363281 16.78125 9.625 C 16.988281 8.855469 17.191406 7.535156 16.65625 7 C 15.074219 7 14.199219 8.128906 14.15625 8.1875 C 13.667969 8.070313 13.164063 8 12.625 8 C 11.933594 8 11.273438 8.125 10.65625 8.3125 L 10.84375 8.15625 C 10.84375 8.15625 9.964844 6.9375 8.34375 6.9375 C 7.777344 7.507813 8.035156 8.953125 8.25 9.6875 C 7.484375 10.417969 7 11.28125 7 12.21875 C 7 12.546875 7.078125 12.859375 7.15625 13.15625 C 6.878906 13.125 5.878906 13.03125 5.46875 13.03125 C 5.105469 13.03125 4.542969 13.117188 4.09375 13.21875 C 4.03125 12.820313 4 12.414063 4 12 C 4 7.589844 7.589844 4 12 4 Z M 5.46875 13.28125 C 5.863281 13.28125 7.0625 13.421875 7.21875 13.4375 C 7.238281 13.492188 7.257813 13.542969 7.28125 13.59375 C 6.851563 13.554688 6.019531 13.496094 5.46875 13.5625 C 5.101563 13.605469 4.632813 13.738281 4.21875 13.84375 C 4.1875 13.71875 4.148438 13.597656 4.125 13.46875 C 4.5625 13.375 5.136719 13.28125 5.46875 13.28125 Z M 18.84375 13.5 C 19.242188 13.503906 19.605469 13.570313 19.84375 13.625 C 19.832031 13.691406 19.796875 13.746094 19.78125 13.8125 C 19.527344 13.753906 19.109375 13.667969 18.625 13.65625 C 18.390625 13.652344 18.015625 13.664063 17.6875 13.6875 C 17.703125 13.65625 17.707031 13.625 17.71875 13.59375 C 18.058594 13.546875 18.492188 13.496094 18.84375 13.5 Z M 6.09375 13.78125 C 6.65625 13.785156 7.183594 13.824219 7.40625 13.84375 C 7.929688 14.820313 8.988281 15.542969 10.625 15.84375 C 10.222656 16.066406 9.863281 16.378906 9.59375 16.75 C 9.359375 16.769531 9.113281 16.78125 8.875 16.78125 C 8.179688 16.78125 7.746094 16.160156 7.375 15.625 C 7 15.089844 6.539063 15.03125 6.28125 15 C 6.019531 14.96875 5.929688 15.117188 6.0625 15.21875 C 6.824219 15.804688 7.097656 16.5 7.40625 17.125 C 7.683594 17.6875 8.265625 18 8.90625 18 L 9.03125 18 C 9.011719 18.109375 9 18.210938 9 18.3125 L 9 19.40625 C 6.691406 18.472656 4.933594 16.5 4.28125 14.0625 C 4.691406 13.960938 5.152344 13.855469 5.5 13.8125 C 5.660156 13.792969 5.863281 13.777344 6.09375 13.78125 Z M 18.625 13.90625 C 19.074219 13.917969 19.472656 14.003906 19.71875 14.0625 C 19.167969 16.132813 17.808594 17.855469 16 18.90625 L 16 18.3125 C 16 17.460938 15.328125 16.367188 14.375 15.84375 C 15.957031 15.554688 16.988281 14.863281 17.53125 13.9375 C 17.910156 13.910156 18.355469 13.898438 18.625 13.90625 Z M 12.5 18 C 12.773438 18 13 18.226563 13 18.5 L 13 19.9375 C 12.671875 19.980469 12.339844 20 12 20 L 12 18.5 C 12 18.226563 12.226563 18 12.5 18 Z M 10.5 19 C 10.773438 19 11 19.226563 11 19.5 L 11 19.9375 C 10.664063 19.894531 10.324219 19.832031 10 19.75 L 10 19.5 C 10 19.226563 10.226563 19 10.5 19 Z M 14.5 19 C 14.742188 19 14.953125 19.175781 15 19.40625 C 14.675781 19.539063 14.34375 19.660156 14 19.75 L 14 19.5 C 14 19.226563 14.226563 19 14.5 19 Z">
+                            </path>
+                        </svg>
+                    </a>
+
+
+                </div>
+            </nav>
+        </footer>
+    </div>
+
+
+
 </body>
+
 </html>
