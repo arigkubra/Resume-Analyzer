@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <div class="navbar bg-slate-900 text-white">
+        <div class="flex-1">
+            <a class="btn btn-ghost text-xl">Resumee</a>
+        </div>
+        <div class="flex-none">
+            <ul class="menu menu-horizontal px-1">
+                <li><a href="./index.html">Home</a></li>
+                <li>
+                    <details>
+                        <summary>
+                            More
+                        </summary>
+                        <ul class="p-2 bg-base-100 rounded-t-none">
+                            <li><a href="./login.html">Login</a></li>
+                            <li><a href="#">SignUp</a></li>
+                            <li><a href="#">About</a></li>
+                        </ul>
+                    </details>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Form Section -->
+
+
+    <div class="hero min-h-screen  bg-gradient-to-tl from-[#302b63] to-[#000428]">
+
+        <div
+            class="hero-content backdrop-blur-sm shadow-2xl bg-white/5 lg:mx-20 rounded flex-col lg:flex-row-reverse">
+
+            <div
+                class="text-center w-full items-center shadow-lg lg:shadow-white/40 flex flex-col justify-center rounded-xl bg-indigo-950  xl:mr-5  md:p-5 lg:text-left">
+                <h1 class="text-3xl mb-8 mt-5 text-white font-bold">Welcome!</h1>
+                <figure>
+                    <img src="./images/tada.png" class="h-20 w-20" alt="">
+                </figure>
+                <p class="p-6 text-center sm:text-base text-sm mt-5">Managers can easily identify and evaluate the most
+                    qualified and
+                    suitable candidates
+                    among job applications.</p>
+            </div>
+            <div class="divider lg:divider-horizontal"></div>
+
+
+            <div class="card shrink-0 lg:w-1/2   w-full">
+
+                <form class="card-body ">
+                    <h2 class="text-center text-white text-3xl font-semibold">Login</h2>
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">Email</span>
+                        </label>
+                        <input type="email" placeholder="email" class="input input-bordered" required />
+                    </div>
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">Password</span>
+                        </label>
+                        <input type="password" placeholder="password" class="input input-bordered" required />
+                        <label class="label">
+                            <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                        </label>
+                    </div>
+                    <div class="form-control mt-6">
+                        <button
+                            class="btn bg-gradient-to-tl from-[#302b63] to-[#000428] hover:bg-blue-900 shadow-lg shadow-blue-500/40 hover:shadow-blue-500 text-white"><a
+                                href="">Login</a></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
