@@ -8393,6 +8393,11 @@ details.collapse summary::-webkit-details-marker {
   margin-right: 1.75rem;
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .my-20 {
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -8401,16 +8406,6 @@ details.collapse summary::-webkit-details-marker {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.my-7 {
-  margin-top: 1.75rem;
-  margin-bottom: 1.75rem;
 }
 
 .mb-2 {
@@ -9587,15 +9582,6 @@ details.collapse summary::-webkit-details-marker {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.border-white\/80 {
-  border-color: rgb(255 255 255 / 0.8);
-}
-
-.border-gray-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(107 114 128 / var(--tw-border-opacity));
-}
-
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
@@ -9622,19 +9608,6 @@ details.collapse summary::-webkit-details-marker {
 
 .bg-white\/5 {
   background-color: rgb(255 255 255 / 0.05);
-}
-
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-white\/20 {
-  background-color: rgb(255 255 255 / 0.2);
-}
-
-.bg-white\/10 {
-  background-color: rgb(255 255 255 / 0.1);
 }
 
 .bg-opacity-40 {
@@ -10510,21 +10483,6 @@ details.collapse summary::-webkit-details-marker {
 }
 
 @media (min-width: 640px) {
-  .sm\:mx-10 {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-  }
-
-  .sm\:mx-40 {
-    margin-left: 10rem;
-    margin-right: 10rem;
-  }
-
-  .sm\:my-0 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-
   .sm\:my-4 {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -10534,24 +10492,12 @@ details.collapse summary::-webkit-details-marker {
     margin-right: 1rem;
   }
 
-  .sm\:mt-0 {
-    margin-top: 0px;
-  }
-
   .sm\:h-5\/6 {
     height: 83.333333%;
   }
 
   .sm\:w-11\/12 {
     width: 91.666667%;
-  }
-
-  .sm\:w-96 {
-    width: 24rem;
-  }
-
-  .sm\:w-screen {
-    width: 100vw;
   }
 
   .sm\:grid-cols-2 {
@@ -10581,11 +10527,6 @@ details.collapse summary::-webkit-details-marker {
     line-height: 1.5rem;
   }
 
-  .sm\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -10597,11 +10538,6 @@ details.collapse summary::-webkit-details-marker {
 }
 
 @media (min-width: 768px) {
-  .md\:mx-40 {
-    margin-left: 10rem;
-    margin-right: 10rem;
-  }
-
   .md\:mx-20 {
     margin-left: 5rem;
     margin-right: 5rem;
