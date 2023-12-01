@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Standart User | Resumee</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <div class="navbar bg-slate-900 text-white">
+        <div class="flex-1">
+            <a class="btn btn-ghost text-xl">Resumee</a>
+        </div>
+        <div class="flex-none">
+            <ul class="menu menu-horizontal px-1">
+                <li><a href="./index.html">Log out</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="hero min-h-screen  bg-gradient-to-tl from-[#302b63] to-[#000428]">
+        <div class="hero-content backdrop-blur-sm shadow-2xl bg-white/5 lg:mx-20 rounded flex-col lg:flex-row">
+            <div class="card shrink-0 lg:w-1/2  w-full">
+
+                <form class="card-body ">
+
+                    <h2 class="text-center text-white text-3xl font-semibold">Hi Standart User!</h2>
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">Username</span>
+                        </label>
+                        <input type="label-text" placeholder="Kubra Arig" disabled class="input input-bordered" />
+                    </div>
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">Email</span>
+                        </label>
+                        <input type="email" placeholder="standartUser@gmail.com" disabled
+                            class="input input-bordered" />
+                    </div>
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">Resume</span>
+                        </label>
+                        <input type="file" class="file-input file-input-bordered w-full " />
+                    </div>
+                    <div class="form-control mt-6">
+                        <button
+                            class="btn bg-gradient-to-tl from-[#302b63] to-[#000428] hover:bg-blue-900 shadow-lg shadow-blue-500/40 hover:shadow-blue-500 text-white"><a
+                                href="./userType.html">Analyze</a></button>
+                    </div>
+
+                </form>
+            </div>
+            <div class="divider lg:divider-horizontal"></div>
+            <div
+                class="text-center w-full items-center shadow-lg lg:shadow-white/40 flex flex-col justify-center rounded-xl bg-indigo-950  xl:mr-5  md:p-5 lg:text-left">
+                <h1 class="text-3xl mb-2 mt-5  text-white font-bold">Your Score</h1>
+                <h3 class="text-3xl mb-8 mt-5  text-white font-bold">86</h3>
+
+                <h2 class="text-xl mb-2 mt-5 text-center  text-white font-bold">Your ranking among other users</h2>
+                <h3 class="text-3xl mb-8 mt-5  text-white font-bold">5</h3>
+                
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
