@@ -18,3 +18,4 @@ Completed:
 ![Home Page Screenshot](./screenshots/homepageSS_3.png)
 ![Login Page Screenshot](./screenshots/loginSS.png)
 ![About Page Screenshot](./screenshots/aboutSS.png)
+![Select User Type Screenshot](./screenshots/SelectUserType.png)
