@@ -1,14 +1,17 @@
 # Resume Analyzer
 
 Things to do in the project:
-* User Type Selection Page
-* Standart User's Page
-* Admin Page
+* Back End entegration
+* Analyze resume
+* API
 
 Completed:
 * Home Page
 * Login Page
 * About Page
+* User Type Selection Page
+* Standart User's Page
+* Admin Page
 
 ## View
 
@@ -20,3 +23,4 @@ Completed:
 ![About Page Screenshot](./screenshots/aboutSS.png)
 ![Select User Type Screenshot](./screenshots/SelectUserType.png)
 ![Standart User Screenshot](./screenshots/standartUserPage.png)
+![Admin Page Screenshot](./screenshots/AdminPageSS%20.png)
